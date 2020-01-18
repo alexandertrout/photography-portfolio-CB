@@ -1,0 +1,41 @@
+body {
+  margin: 0vw 0vw;
+}
+
+.a {
+  background-color: rgb(37, 37, 37);
+  height: 180vh;
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 20fr;
+}
+
+.menu {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  font-size: 1.2vw;
+}
+
+.b {
+  transition: 1s;
+}
+
+.b:hover {
+  color: grey;
+}
+
+.c {
+  font-size: 8vw;
+  padding: 27vw 1vw 0vw;
+}
+
+.d {
+  background-color: white;
+  height: 500vh;
+  padding: 5vw 10vw;
+}
