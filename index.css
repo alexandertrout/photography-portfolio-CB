@@ -1,11 +1,11 @@
 body {
   margin: 0vw 0vw;
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 .a {
   background-color: rgb(37, 37, 37);
   height: 180vh;
-  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
@@ -22,7 +22,7 @@ body {
 }
 
 .b {
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .b:hover {
@@ -36,6 +36,40 @@ body {
 
 .d {
   background-color: white;
-  height: 500vh;
+  color: black;
+  text-align: center;
+  height: 100vh;
   padding: 5vw 10vw;
+  font-size: 8vw;
+}
+
+.y {
+  color: black;
+  text-align: center;
+}
+
+.z {
+  margin: 0vw 0vw 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  font-size: 1.2vw;
+}
+
+.x {
+  font-size: 2vw;
+  margin: 3vw 0vw 15vw;
+  color: lightgray;
+}
+
+.v {
+  height: 1.5vw;
+  width: 1.5vw;
+  margin: 0.5vw;
+  opacity: 1;
+  transition: 0.2s;
+}
+.v:hover {
+  opacity: 0.5;
 }
