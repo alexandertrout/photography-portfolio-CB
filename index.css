@@ -27,6 +27,7 @@ body {
 
 .b:hover {
   color: grey;
+  cursor: pointer;
 }
 
 .c {
@@ -72,4 +73,5 @@ body {
 }
 .v:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
