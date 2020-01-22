@@ -4,8 +4,11 @@ body {
 }
 
 .a {
-  background-color: rgb(37, 37, 37);
-  height: 180vh;
+  /* background-color: rgb(37, 37, 37); */
+  background-image: url("./images/photo2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 105vh;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
@@ -31,17 +34,45 @@ body {
 }
 
 .c {
+  color: white;
   font-size: 8vw;
-  padding: 27vw 1vw 0vw;
+  padding: 15vw 1vw 0vw;
 }
 
 .d {
   background-color: white;
   color: black;
   text-align: center;
-  height: 100vh;
+  height: auto;
   padding: 5vw 10vw;
   font-size: 8vw;
+}
+
+.e {
+  margin: 5vw 3vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-gap: 4vw 7vw;
+}
+
+.i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 226, 222);
+  height: 40vw;
+  width: auto;
+  font-size: 5vw;
+}
+
+.t {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: auto;
+  width: auto;
+  font-size: 2vw;
 }
 
 .y {
